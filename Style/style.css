@@ -1,0 +1,33 @@
+body{
+    background-color: #F5F5F5;
+}
+.container {
+    margin: auto 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.banner {
+    display: flex;
+
+    background-color: #C6E4D6;
+    border-radius: 10px;
+
+}
+
+.pillars ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pillars ul li{
+    background-color:white;
+    width: 23.5%;
+}
