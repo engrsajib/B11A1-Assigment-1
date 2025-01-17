@@ -9,7 +9,9 @@ body {
 .secondary-text {
     color: #0E0E0E;
     opacity: 70%;
+    font-size: 14px;
 }
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -130,7 +132,39 @@ table{
     padding: 32px;
     font-size: 18px;
     font-weight: 600;
+}
+.news-card{
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px 48px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.donation-card{
+    display:flex;
+    justify-content: center;
     
+}
+.amount{
+    text-align: center;
+    
+    padding: 20px 40px;
+    
+}
+.newsletter {
+    text-align: center;
+    margin: 80px 0px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 265px;
+
+}
+footer{
+text-align: center;
+background-color: white;
+padding: 50px;
 }
 
 
