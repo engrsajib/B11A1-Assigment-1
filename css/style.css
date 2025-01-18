@@ -136,7 +136,6 @@ table{
 }
  .table-content tr, td {
     border: 2px solid lightgrey;
-    border-collapse: collapse;
     font-size: 16px;
     font-weight: 600;
  }
