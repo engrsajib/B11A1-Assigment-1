@@ -123,16 +123,24 @@ h5 {
     padding: 48px 24px;
     margin: 32px 0;
 }
-.opinion {
+.review{
     background-color: white;
     width: 100%;
     border-radius: 16px ;
+    padding: 32px;
 }
 table{
-    padding: 32px;
-    font-size: 18px;
-    font-weight: 600;
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+
 }
+ .table-content tr, td {
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-weight: 600;
+ }
+  
 .news-card{
     background-color: white;
     border-radius: 24px;
